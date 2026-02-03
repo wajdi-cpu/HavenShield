@@ -1,13 +1,5 @@
 # HavenShield
 > A **fully automated, open-source SOC** for home labs — built with Wazuh, Shuffle, and TheHive
-
-<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e5d5e585-ec5b-4fc9-92fc-b34283559aaa" />
-<img width="474" height="372" alt="image" src="https://github.com/user-attachments/assets/6335efc2-950a-4712-b034-a6485ea74599" />
-<img width="474" height="237" alt="image" src="https://github.com/user-attachments/assets/3c7d4d96-f226-4f30-8c15-42fb9ded0360" />
-<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/db88b9f4-1dcc-448a-b0f9-60ab9449927b" />
-<img width="690" height="335" alt="image" src="https://github.com/user-attachments/assets/1b3cc9dd-9ac8-41a4-a157-7c428a020b34" />
-
-
 ## ✨ Features
 - **Automated Response**: Conditional blocking (VirusTotal + whitelist checks)
 - **Case Management**: TheHive integration for analyst workflows
