@@ -1,10 +1,12 @@
 # HavenShield 🛡
-> A **fully automated, open-source SOC** for home labs — built with Wazuh, Shuffle, and TheHive
-<img width="115.821428572" height="73.928571428" alt="image" src="https://github.com/user-attachments/assets/cb9e2183-f12b-4952-a3d9-8041fedb3209" />
-<img width="120" height="60" alt="image" src="https://github.com/user-attachments/assets/07558961-807f-40ed-8ece-7b60af1e244a" />
-<img width="130.909090909" height="73.636363637" alt="image" src="https://github.com/user-attachments/assets/fadf3c22-af14-4e2d-a2a1-c630778bf2c5" />
-<img width="120" height="60" alt="image" src="https://github.com/user-attachments/assets/667854a6-c06a-44b1-94a9-02376155c946" />
-<img width="129.375" height="62.8125" alt="image" src="https://github.com/user-attachments/assets/ee65c4ca-4539-4639-8ad0-dadc9249a796" />
+> A **fully automated, open-source SOC** for home labs — built with Wazuh, Shuffle, and TheHive                                                                 
+
+
+<a href="https://wazuh.com/"><img width="115.821428572" height="73.928571428" alt="image" src="https://github.com/user-attachments/assets/cb9e2183-f12b-4952-a3d9-8041fedb3209" /></a>
+<a href="https://strangebee.com/thehive/"><img width="120" height="60" alt="image" src="https://github.com/user-attachments/assets/07558961-807f-40ed-8ece-7b60af1e244a" /></a>
+<a href="https://suricata.io/"><img width="130.909090909" height="73.636363637" alt="image" src="https://github.com/user-attachments/assets/fadf3c22-af14-4e2d-a2a1-c630778bf2c5" /></a>
+<a href="https://shuffler.io/"><img width="120" height="60" alt="image" src="https://github.com/user-attachments/assets/667854a6-c06a-44b1-94a9-02376155c946" /></a>
+<a href="https://www.virustotal.com"><img width="129.375" height="62.8125" alt="image" src="https://github.com/user-attachments/assets/ee65c4ca-4539-4639-8ad0-dadc9249a796" /></a>
 
 # ✨ Features
   - **Automated Response**: Conditional blocking (VirusTotal + whitelist checks)
