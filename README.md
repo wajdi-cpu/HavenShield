@@ -8,8 +8,25 @@
 
 
 
-
-
+# 📁 Full Repository Structure 
+```js
+HavenShield/
+├── README.md
+├── deploy-all.sh
+├── docs/
+│   └── project_doc.pdf
+├── deploy/
+│   ├── wazuh/
+│   │   └── install.sh          # SIEM server (192.168.0.100)
+│   ├── shuffle/
+│   │   └── docker-compose.yml  # SOAR server (192.168.0.101)
+│   ├── thehive/
+│   │   └── docker-compose.yml  # CASE server (192.168.0.102)
+│   └── suricata/
+│       └── install.sh          # Vuln machine (192.168.0.114)
+└── integrations/
+    └── wazuh-shuffle-webhook.py
+```
 
 
 # ✨ Features
