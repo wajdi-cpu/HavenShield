@@ -92,8 +92,8 @@ HavenShield implements a three-tier SOC architecture aligned with NIST SP 800-61
   │              │ • Wazuh      │                                   │
   │              │   Agent      │                                   │
   │              │ • Suricata   │                                   │
-  │              │ • iptables   │                                   │
   │              └──────────────┘                                   │
+  │                                                                 │
   │                                                                 │
   └─────────────────────────────────────────────────────────────────┘
 ```  
