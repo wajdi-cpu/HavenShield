@@ -15,6 +15,7 @@
 
 # 📁 Full Repository Structure 
 ```js
+HavenShield/
 ├── README.md                 # Project overview + architecture diagram
 ├── LICENSE                   # AGPLv3 license
 ├── CHANGELOG.md              # Version history (shows project evolution)
