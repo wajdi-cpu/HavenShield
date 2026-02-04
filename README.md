@@ -15,22 +15,33 @@
 
 # 📁 Full Repository Structure 
 ```js
-HavenShield/
-├── README.md
-├── deploy-all.sh
+├── README.md                 # Project overview + architecture diagram
+├── LICENSE                   # AGPLv3 license
+├── CHANGELOG.md              # Version history (shows project evolution)
+├── .gitignore                # Exclude secrets/temp files
 ├── docs/
-│   └── project_doc.pdf
+│   ├── deployment-guide.md   # Step-by-step setup per VM
+│   ├── troubleshooting.md    # Fix common issues (Cassandra crashes, etc.)
+│   └── screenshots/          # Visual proof (dashboard, case creation)
+│       ├── soc-architecture.png
+│       └── wazuh-dashboard.png
+│       
 ├── deploy/
-│   ├── wazuh/
-│   │   └── install.sh          # SIEM server (192.168.0.100)
-│   ├── shuffle/
-│   │   └── docker-compose.yml  # SOAR server (192.168.0.101)
-│   ├── thehive/
-│   │   └── docker-compose.yml  # CASE server (192.168.0.102)
-│   └── suricata/
-│       └── install.sh          # Vuln machine (192.168.0.114)
-└── integrations/
-    └── wazuh-shuffle-webhook.py
+│   ├── siem/                 # Wazuh Manager (192.168.0.100)
+│   │   ├── install.sh
+│   │   └── wazuh.conf        # Minimal custom config
+│   ├── soar/                 # Shuffle SOAR (192.168.0.101)
+│   │   ├── docker-compose.yml
+│   │   └── .env.example      # Template (no secrets)
+│   ├── case/                 # TheHive (192.168.0.102)
+│   │   └── docker-compose.yml
+│   └── endpoint/             # Vuln Machine (192.168.0.114)
+│       ├── install-suricata.sh
+│       └── install-agent.sh  # Wazuh Agent setup
+├── integrations/
+│   └── wazuh-to-shuffle.py  # Secure webhook sender (HTTPS-ready)
+└── playbooks/
+    └── ssh-auto-block.json   # Exported Shuffle workflow
 ```
 
 
