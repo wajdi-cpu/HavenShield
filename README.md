@@ -1,4 +1,4 @@
-# HavenShield
+# HavenShield 🛡
 > A **fully automated, open-source SOC** for home labs — built with Wazuh, Shuffle, and TheHive
 ## ✨ Features
 - **Automated Response**: Conditional blocking (VirusTotal + whitelist checks)
