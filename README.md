@@ -17,9 +17,7 @@
 ```js
 HavenShield/
 ├── README.md                 # Project overview + architecture diagram
-├── LICENSE                   # AGPLv3 license
 ├── CHANGELOG.md              # Version history (shows project evolution)
-├── .gitignore                # Exclude secrets/temp files
 ├── docs/
 │   ├── deployment-guide.md   # Step-by-step setup per VM
 │   ├── troubleshooting.md    # Fix common issues (Cassandra crashes, etc.)
