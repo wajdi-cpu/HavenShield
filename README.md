@@ -1,9 +1,21 @@
 # HavenShield 🛡
 > A **fully automated, open-source SOC** for home labs — built with Wazuh, Shuffle, and TheHive
-## ✨ Features
-- **Automated Response**: Conditional blocking (VirusTotal + whitelist checks)
-- **Case Management**: TheHive integration for analyst workflows
-- **Zero Cost**: 100% free/open-source (AGPLv3/Apache 2.0/GPLv2)
+<img width="154.428571429" height="98.571428571" alt="image" src="https://github.com/user-attachments/assets/cb9e2183-f12b-4952-a3d9-8041fedb3209" />
+<img width="160" height="80" alt="image" src="https://github.com/user-attachments/assets/07558961-807f-40ed-8ece-7b60af1e244a" />
+<img width="174.545454545" height="98.181818182" alt="image" src="https://github.com/user-attachments/assets/fadf3c22-af14-4e2d-a2a1-c630778bf2c5" />
+<img width="160" height="80" alt="image" src="https://github.com/user-attachments/assets/667854a6-c06a-44b1-94a9-02376155c946" />
+<img width="172.5" height="83.75" alt="image" src="https://github.com/user-attachments/assets/ee65c4ca-4539-4639-8ad0-dadc9249a796" />
+
+
+
+
+
+
+
+# ✨ Features
+  - **Automated Response**: Conditional blocking (VirusTotal + whitelist checks)
+  - **Case Management**: TheHive integration for analyst workflows
+  - **Zero Cost**: 100% free/open-source (AGPLv3/Apache 2.0/GPLv2)
 
 ## 🚀Architecture Overview
 HavenShield implements a three-tier SOC architecture aligned with NIST SP 800-61r2 incident response guidelines:                                              
@@ -16,11 +28,11 @@ HavenShield implements a three-tier SOC architecture aligned with NIST SP 800-61
 │  │   Detection      │     │   Orchestration  │     │   Investigation   │    │                                                  
 │  │   Layer          │────▶│   Layer          │────▶│   Layer           │    │                                              
 │  ├──────────────────┤     ├──────────────────┤     ├───────────────────┤    │                                                      
-│  │ • Wazuh Manager  │     │ • Shuffle SOAR   │     │ • TheHive 4       │    │                                              
-│  │ • Suricata IDS   │     │ • VirusTotal API │     │ • Cortex Analyzers│    │                                                
-│  │ • OpenSearch DB  │     │ • Conditional    │     │ • Case Management │    │                                                                              
-│  │ • Agent Network  │     │   Playbooks      │     │ • Task Workflows  │    │                                                                            
-│  └──────────────────┘     └──────────────────┘     └───────────────────┘    │                                                                
+│  │ • Wazuh Manager  │     │ • Shuffle SOAR   │     │ • TheHive 5       │    │                                              
+│  │ • Suricata IDS   │     │ • Conditional    │     │ • VirusTotal API  │    │                                                
+│  │ • OpenSearch DB  │     │   Playbooks      │     │ • Case Management │    │                                                                              
+│  │ • Agent Network  │     └──────────────────┘     │ • Task Workflows  │    │                                                                            
+│  └──────────────────┘                              └───────────────────┘    │                                                                
 │                                                                             │                                                                              
 └─────────────────────────────────────────────────────────────────────────────┘                                                                          
 ```
