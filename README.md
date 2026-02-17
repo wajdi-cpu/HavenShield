@@ -28,7 +28,8 @@ HavenShield/
 │   │   └── docker-compose.yml         # TheHive config (Cassandra fix)
 │   └── endpoint/
 │       ├── suricata.yaml             # Suricata config
-│       └── ossec.conf 
+│       └── ossec.conf
+└── screeshots/ 
 ```
 
 
