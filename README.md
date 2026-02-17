@@ -16,20 +16,31 @@
 # 📁 Full Repository Structure 
 ```js
 HavenShield/
-├── README.md
-├── LICENSE
-├── .gitignore
+├── README.md                 # Project overview + architecture diagram
+├── CHANGELOG.md              # Version history (shows project evolution)
+├── docs/
+│   ├── deployment-guide.md   # Step-by-step setup per VM
+│   ├── troubleshooting.md    # Fix common issues (Cassandra crashes, etc.)
+│   └── screenshots/          # Visual proof (dashboard, case creation)
+│       ├── soc-architecture.png
+│       └── wazuh-dashboard.png
+│       
 ├── deploy/
-│   ├── siem/
-│   │   └── ossec.conf                 # Wazuh Manager config
-│   ├── soar/
-│   │   └── docker-compose.yml         # Shuffle config (SQLite mode)
-│   ├── case/
-│   │   └── docker-compose.yml         # TheHive config (Cassandra fix)
-│   └── endpoint/
-│       ├── suricata.yaml             # Suricata config
-│       └── ossec.conf
-└── screeshots/ 
+│   ├── siem/                 # Wazuh Manager (192.168.0.100)
+│   │   ├── install.sh
+│   │   └── wazuh.conf        # Minimal custom config
+│   ├── soar/                 # Shuffle SOAR (192.168.0.101)
+│   │   ├── docker-compose.yml
+│   │   └── .env.example      # Template (no secrets)
+│   ├── case/                 # TheHive (192.168.0.102)
+│   │   └── docker-compose.yml
+│   └── endpoint/             # Vuln Machine (192.168.0.114)
+│       ├── install-suricata.sh
+│       └── install-agent.sh  # Wazuh Agent setup
+├── integrations/
+│   └── wazuh-to-shuffle.py  # Secure webhook sender (HTTPS-ready)
+└── playbooks/
+    └── ssh-auto-block.json   # Exported Shuffle workflow
 ```
 
 
